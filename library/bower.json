@@ -1,0 +1,21 @@
+{
+    "name": "library",
+    "description": "",
+    "main": "app.js",
+    "authors": [
+        "Jack Nehme <jack.nehme@gmail.com>"
+    ],
+    "license": "ISC",
+    "homepage": "https://github.com/jacknehme/building-web-app-with-node-and-express",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "public",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "font-awesome": "^4.7.0"
+    }
+}
