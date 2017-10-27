@@ -9,12 +9,12 @@ app.use(express.static('src/views'));
 
 app.get('/', function(req, res) {
     res.send('Hello World');
-})
+});
 
 app.get('/books', function(req, res) {
     res.send('Hello Books');
-})
+});
 
 app.listen(5000, function(err) {
     console.log('running server on port ' + port);
-})
+});
