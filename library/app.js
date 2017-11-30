@@ -1,8 +1,5 @@
 var express = require('express');
-<<<<<<< HEAD
-=======
 var bodyParser = require('body-parser');
->>>>>>> workingBranch
 var app = express();
 var sql = require('mssql');
 
