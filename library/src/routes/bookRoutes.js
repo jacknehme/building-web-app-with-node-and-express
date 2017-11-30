@@ -36,5 +36,5 @@ var router = function(nav) {
     });
     return bookRouter;
 
-}
+};
 module.exports = router;
