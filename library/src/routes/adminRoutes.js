@@ -54,7 +54,7 @@ var router = function(nav) {
                 collection.insertMany(books, function(err, results) {
                     res.send(results);
                     db.close();
-                })
+                });
             });
             //res.send('inserting books');
         });
