@@ -14,12 +14,12 @@ module.exports = function() {
                     username: username
                 },
                 function(err, results) {
-                    if (results.password === password) {
-                        var user = results;
-                        done(null, user);
-                    } else {
-                        done(null, false, { message: 'Bad password' });
-                    }
+                    // if (results && results.password === password) {
+                    //     var user = results;
+                    //     done(null, user);
+                    // } else {
+                    //     done(null, false, { message: 'Bad password' });
+                    // }
                 }
             );
         });
